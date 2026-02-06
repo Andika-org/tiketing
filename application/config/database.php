@@ -75,11 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	//'hostname' => '192.168.1.51',
-	'hostname' => '192.168.0.155',
-	'username' => 'rsrah',
-	'password' => 'Rsra3000$',
-	'database' => 'tiketing',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
+	'database' => '',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
