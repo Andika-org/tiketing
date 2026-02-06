@@ -1,0 +1,5 @@
+{
+    "dataworkspace.excludedProjects": [
+        "application/views/properti/dsd/dsd.sqlproj"
+    ]
+}

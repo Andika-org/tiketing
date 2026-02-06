@@ -1,0 +1,99 @@
+<style>
+    .pageContent {
+        display: block;
+        border: 1px solid #DCE6ED;
+        /* padding: 5px; */
+        margin-top: 5px;
+        width: 100%;
+        height: 400px;
+        overflow: auto;
+    }
+
+    /* Menambahkan gaya untuk wadah tabel */
+    .table-container {
+        max-height: 55vh;
+        /* Tentukan tinggi wadah */
+        overflow-y: auto;
+        /* Membuat scroll ketika konten melebihi batas */
+        border: 1px solid #ccc;
+        /* margin: 15px 0; */
+    }
+
+    /* Gaya untuk tabel */
+    .tableStyle {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 9pt;
+    }
+
+    /* Gaya untuk header tabel agar tetap di atas */
+    .tBthead {
+        position: sticky;
+        top: 0;
+        background-color: #f1f1f1;
+        /* Warna latar belakang header */
+        z-index: 1;
+        /* Menjaga header tetap di atas konten saat scroll */
+    }
+
+    .tBth,
+    .tBtd {
+        padding: 6px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .tBth {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 9999;
+        /* Ensure it is above other elements */
+        top: 0;
+        right: 0;
+        background-color: transparent;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* #sidenavContent {
+        margin-top: -50px;
+    } */
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .menuLainnya {
+        color: white;
+        font-weight: bold;
+    }
+
+    .menuLainnya:hover {
+        color: yellow;
+    }
+</style>
